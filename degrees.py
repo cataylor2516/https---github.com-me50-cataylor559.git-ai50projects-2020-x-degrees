@@ -152,7 +152,6 @@ def shortest_path(source, target):
                     fronter.add(childNode)
 
                 childNode = None
-
     # end of actions connect from parent to child nodes.
 
 def person_id_for_name(name):

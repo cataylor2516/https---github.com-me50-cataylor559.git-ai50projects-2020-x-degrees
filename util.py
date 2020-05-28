@@ -1,7 +1,7 @@
 class Node():
     def __init__(self, person, parent, movies):
         self.state = person  # Id of person for this node.
-        self.parent = parent # Id of person that leads to this node.
+        self.parent = parent # Id of person that action leads to this node.
         self.action = movies # Id of movies this person has been in.
 
 
